@@ -1,45 +1,53 @@
 body {
-  margin: 0px;
-  color: #fff;
-  display: block;
-  background: url(../images/main.jpg) 0% 110% no-repeat;
+  margin: none;
 }
 
-#header {
-  background-color: rgb(80, 80, 80);
-  width: 70%;
-  margin: 0 auto;
-}
-
-.nav-items {
+section {
   display: flex;
-  margin-top: 30px;
-  border: 1px solid #333;
-  border-radius: 4px;
+  flex-direction: column;
+  width: 100%;
+  min-height: 500px;
+  background: url(../images/your_verse_hero.jpg) 0 no-repeat;
+  background-position-y: 105%;
+  background-size: auto 100%;
+  background-size: cover;
+}
+
+section .nav-items {
+  display: flex;
+  width: 70%;
+  margin: 30px auto;
 }
 
 .nav-items a {
+  flex: 1;
   text-decoration: none;
-  color: white;
+  color: aliceblue;
+  border-left: 1px solid black;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: rgb(80, 80, 80);
+  background: linear-gradient(gray, gray, black);
 }
 
-.nav-items div {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  border: 1px solid grey;
-  padding: 10px;
-  background: linear-gradient(to right bottom, #000, #fff);
+.nav-items a:hover {
+  background: linear-gradient(black, gray);
+}
+
+form {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 1px solid black;
+  background-color: rgb(80, 80, 80);
+  background: linear-gradient(gray, gray, black);
+  margin-top: -11px;
 }
 
 input {
   background-color: rgb(80, 80, 80);
   border: 1px solid gray;
   border-radius: 4px;
-}
-
-.nav-items div:hover {
-  background: #333;
+  margin: 10px 10px;
 }
 
 .textgrid {
@@ -48,40 +56,51 @@ input {
 }
 
 .text {
-  width: 60%;
+  color: aliceblue;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
+  text-align: center;
 }
 
-.text a{
+.text a {
   text-decoration: none;
   color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.text a:hover{
+.text a:hover {
   border-bottom: 1px solid white;
 }
 
 .grid {
   display: flex;
   overflow: hidden;
+  width: 100%;
   background-color: #fff;
-  margin-top: 100px;
+  margin-top: -50px;
 }
 
-footer {
-  width: 100%;
-  color: #333;
-  background-color: #fff;
+.grid img {
+  width: 25%;
 }
 
 .footer {
-  width: 80%;
-  padding-top: 20px;
-  padding-left: 200px;
+  width: 100%;
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  font: 11px;
 }
 
 .line1 {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .list ul {
