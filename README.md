@@ -7,10 +7,10 @@
    First Solo Microverse Project - Building with Backgrounds and Gradients </br>
   This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
    <br />
-   <a href="https://github.com/Datagirlcmr/apple-webpage/tree/features"><strong>Explore the docs »</strong></a>
+   <a href="https://github.com/Datagirlcmr/apple-webpage"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://raw.githack.com/Datagirlcmr/apple-webpage/features/index.html"> :wink: View Demo </a> 
+   <a href="https://raw.githack.com/Datagirlcmr/apple-webpage/master/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
@@ -25,7 +25,7 @@
 ## Contact
 Selma Ndi :woman: - [Github profile](https://github.com/Datagirlcmr)
 <br>
-Project Link :envelope:: [Project repo](https://github.com/Datagirlcmr/apple-webpage/tree/features)
+Project Link :envelope:: [Project repo](https://github.com/Datagirlcmr/apple-webpage)
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
