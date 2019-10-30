@@ -20,6 +20,13 @@ main .nav-items {
   margin: 50px auto;
 }
 
+footer a {
+  text-decoration: none;
+  color: blue;
+  padding: 0 2px;
+  border-right: 1px solid gray;
+}
+
 .nav-items a {
   text-decoration: none;
   color: aliceblue;
@@ -67,10 +74,6 @@ input {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.text a:hover {
-  text-decoration: underline;
-}
-
 .grid {
   display: flex;
   overflow: hidden;
@@ -111,27 +114,24 @@ input {
   margin-top: -10px;
 }
 
-#nobord a {
-  text-decoration: none;
-  color: blue;
-  border-right: none;
-}
-
-#nobord a:hover {
+footer a:hover {
   text-decoration: underline;
-}
-
-footer a {
-  text-decoration: none;
-  color: blue;
-  padding: 0 2px;
-  border-right: 1px solid gray;
 }
 
 .nav-items a:hover {
   background: linear-gradient(black, gray);
 }
 
-footer a:hover {
+#nobord a {
+  text-decoration: none;
+  color: blue;
+  border-right: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+#nobord a:hover {
   text-decoration: underline;
 }
