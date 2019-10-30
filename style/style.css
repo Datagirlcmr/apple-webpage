@@ -28,8 +28,7 @@ main .nav-items {
   padding: 10px 30px;
   background-color: rgb(80, 80, 80);
   background: linear-gradient(gray, gray, black);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .nav-items a:hover {
@@ -46,6 +45,8 @@ form {
 }
 
 input {
+  background: url(../images/icons8-search-24.png) 0 0 no-repeat;
+  background-size: 15px auto;
   background-color: rgb(80, 80, 80);
   border: 1px solid gray;
   border-radius: 4px;
@@ -70,8 +71,7 @@ input {
 .text a {
   text-decoration: none;
   color: #fff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .text a:hover {
