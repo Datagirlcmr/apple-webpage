@@ -122,14 +122,14 @@ footer a:hover {
   background: linear-gradient(black, gray);
 }
 
+.text a:hover {
+  text-decoration: underline;
+}
+
 #nobord a {
   text-decoration: none;
   color: blue;
   border-right: none;
-}
-
-.text a:hover {
-  text-decoration: underline;
 }
 
 #nobord a:hover {
