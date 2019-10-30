@@ -2,7 +2,7 @@ body {
   margin: none;
 }
 
-section {
+main {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -13,7 +13,7 @@ section {
   background-size: cover;
 }
 
-section .nav-items {
+main .nav-items {
   display: flex;
   width: 70%;
   margin: 30px auto;
@@ -93,7 +93,7 @@ input {
   color: #333;
   background-color: #fff;
   text-align: center;
-  font: 11px;
+  font: 9px;
 }
 
 .line1 {
@@ -103,9 +103,10 @@ input {
   margin-top: 20px;
 }
 
-.list ul {
+.list {
   display: flex;
   list-style: none;
+  font-size: 11px;
 }
 
 .list li {
