@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 main {
@@ -82,7 +82,7 @@ input {
   margin-top: -50px;
 }
 
-.grid img {
+.grid a {
   width: 25%;
 }
 
